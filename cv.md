@@ -42,3 +42,15 @@ export const setProductsData = () => dispatch => {
     )
 }
 ```
+
+## Work experience
+
+* **MTBank, 2018 - present**
+
+Minsk, Belarus
+
+Forex specialist
+
+## English
+
+According to the passed test on *[training.by](training.by)* my english level is A2+
