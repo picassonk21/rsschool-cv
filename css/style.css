@@ -59,3 +59,12 @@ body {
     margin-left: 40px;
     background-color: #CDC3C3;
 }
+
+.footer {
+    text-align: right;
+}
+
+.footer__link img {
+    width: 60px;
+    height: 22px;
+}

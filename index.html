@@ -10,39 +10,45 @@
     <title>CV</title>
 </head>
 <body>
-    <div class="content__container">
-        <div class="profile__image">
-            <img src="https://sun9-42.userapi.com/impf/DvwBzTKGkm0pMKkk-KgdpZVLFvCnin_3UKLWeg/uillLnPsUG4.jpg?size=810x1080&quality=96&sign=765d1b8379893fdb3010b7c22d9a9988&type=album" alt="">
-        </div>
+    <main class="content__container">
+        <header class="header">
+            <div class="profile__image">
+                <img src="https://sun9-42.userapi.com/impf/DvwBzTKGkm0pMKkk-KgdpZVLFvCnin_3UKLWeg/uillLnPsUG4.jpg?size=810x1080&quality=96&sign=765d1b8379893fdb3010b7c22d9a9988&type=album" alt="photo">
+            </div>
+        </header>
         <h1 class="profile__name">Egor Borisevich</h1>
-        <div class="contacts">
+        <nav class="contacts">
             <h2>Contacts</h2>
             <ul class="contacts__list">
                 <li class="contacts__list-item">telegram: <a href="https://t.me/picassonk21">t.me/picassonk21</a></li>
-                <li class="contacts__list-item">phone: <a href="tel: +375447947723">+375447947723</a></li>
+                <li class="contacts__list-item">phone: <a href="tel:+375447947723">+375447947723</a></li>
                 <li class="contacts__list-item">email: <a href="https://picassonk21@gmail.com">picassonk21@gmail.com</a></li>
             </ul>
-        </div>
-        <div class="objective">
+        </nav>
+        <section class="objective">
             <h2>Objective</h2>
             <p>I'm participating in the course to gain theoretical knowledge and practical skills of programming in javascript, related skills necessary for a junior developer, and i hope to make new interesting acquaintances.</p>
-        </div>
-        <div class="profile__info">
+        </section>
+        <section class="profile__info">
             <h2>About me</h2>
             <p>My global goal is to change my profession, find a job in the IT and become successful here. i can say that my strong poing is the mathematical mindset.I love mathematics from school, participated in all stages of the republican olympiad in mathematics and received diplomas of various degrees. I also consider my work experience in another field (banking) to be my advantage, because my intention to become a programmer was formed during three years of work in the bank. and now i know exactly what i want.</p>
-        </div>
-        <div class="education">
+        </section>
+        <section class="education">
             <h2>education</h2>
             <ul class="education__list">
                 <li class="education__list-item">Belarusian State Economic University, faculty of finance and banking, bachelor's degree (2015-2019) </li>
                 <li class="education__list-item">course Modern Front-End using JavaScript and HTML5, Belhard Academy (2020 november - 2020 december)</li>
             </ul>
-        </div>
-        <div class="skills">
+        </section>
+        <section class="skills">
             <h2>Skills</h2>
-            <p>I started learning programming about a year ago. My first language was python. I think my basic knowledge is pretty good. Then i taught html, css, mastered the layout. For about four months i have been teaching javascript and it's framework React.</p>
-        </div>
-        <div class="code">
+            <ul class="skills__list">
+                <li class="skills__list-item">Python</li>
+                <li class="skills__list-item">Html, Css, Jss</li>
+                <li class="skills__list-item">React, Redux</li>
+            </ul>
+        </section>
+        <section class="code">
             <h2>Code examples</h2>
             <p>My last training project (it's in progress) is available <a href="https://github.com/picassonk21/shop_demo">here</a></p>
             <pre class="code__example">
@@ -58,7 +64,11 @@
         )
     }
             </pre>
-        </div>
-    </div>
+        </section>
+        <footer class="footer">
+            <a class="footer__link" href="https://rs.school/js/"><img src="./image/rs_school_js.svg" alt="logo"></a>
+            <span>, 2021</span>
+        </footer>
+    </main>
 </body>
 </html>
